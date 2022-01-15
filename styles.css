@@ -8,6 +8,8 @@ body {
 
 .header,
 .content,
+.quote-container,
+.cta-section,
 .footer {
     display: flex;
     flex-direction: column;
@@ -127,8 +129,10 @@ button {
     margin: 0;
 }
 
-.box p {
-    
+
+
+.quote-container {
+    background-color: #E5E7EB;
 }
 .content-quote {
     display: flex;
@@ -150,6 +154,31 @@ button {
     color: #1F2937;
     text-align: right;
 }
+
+.cta-section {
+    background-color: #FFFFFF; 
+    padding: 64px 256px 64px 256px;
+}
+
 .cta-container {
     display: flex;
+    background-color: #3882F6;
+    justify-content: space-around;
+    align-items: center;
+    padding: 16px 64px;
 }
+
+.cta-container-left p {
+    margin: 8px;
+    color: white;
+}
+
+#CTA {
+    font-weight: bold;
+}
+
+.cta-container-right button {
+    border: solid 0.25px white;
+}
+
+
