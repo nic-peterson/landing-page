@@ -1,0 +1,155 @@
+body {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+
+.header,
+.content,
+.footer {
+    display: flex;
+    flex-direction: column;
+    padding: 8px 256px;
+}
+
+.header,
+.footer {
+    background-color: #1F2937;
+}
+
+.header h1 {
+    font-size: 48px;
+    font-weight: extra-bold;
+    color: #f9faf8;
+}
+
+.header ul, p, a {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav p {
+    font-size: 24px;
+    font-weight: 500;
+    color: #f9faf8;
+    padding-bottom: 128px;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    gap: 16px;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+.header-content {
+    display: flex;
+    align-content: space-between;
+    gap: 64px;
+    padding-bottom: 128px;
+}
+
+.header-content-left {
+    flex: 1;
+}
+
+.img-box {
+    box-sizing: border-box;
+    height: 240px;
+    width: 528px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #6D747D;
+}
+
+
+button {
+    background-color: #3882F6;
+    height: 40px;
+    width: 136px;
+    border-radius: 8px;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    border: white;
+}
+
+.content {
+    flex: 1;
+}
+
+.content-information {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 64px;
+}
+
+.content h2 {
+    font-size: 36px;
+    font-weight: extra-bold;
+    color: #1F2937;
+}
+
+.info-container {
+    display: flex;
+    gap: 64px;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 170px;
+    text-align: center;
+}
+
+.box {
+    width: 170px;
+    height: 170px;
+    border-radius: 8px;
+    border: solid #6FA1F8;
+    background-color: #FFFFFF;
+    margin: 0;
+}
+
+.box p {
+    
+}
+.content-quote {
+    display: flex;
+    flex-direction: column;
+    background-color: #E5E7EB;
+    padding: 64px 256px 64px 256px;
+}
+
+.quote {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 100;
+    color: #38424E;
+}
+
+.author {
+    font-size: 18px;
+    font-weight: bold;
+    color: #1F2937;
+    text-align: right;
+}
+.cta-container {
+    display: flex;
+}
